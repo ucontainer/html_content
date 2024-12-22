@@ -9,7 +9,6 @@ This page contains all the categories required to complete the module including 
 **Installation**
 
 Download the repository to any IDE of choice.
-
 The index.html file contains the page information.
 There are image files such as favicon.png that have been linked from the index.html page.
 The about.html page gives more information about the page.
