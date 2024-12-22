@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Module 4 Assignment">
+  <meta name="author" content="nate learning">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <title>Module 4 HTML Assignment</title>
+</head>
+<style>
+    .roundedge{
+        border-radius: 30px;
+    }
+</style>
+<body>
+    <header>
+    <h2>Module 4 HTML Assignment</h2>
+    </header>
+    <br>
+    <nav>
+        <ul>
+       <li> <a href="index.html">Home</a></li>
+       <li> <a href="#contact">Contact</a></li>
+       <li> <a href="about.html">About</a> </li>
+     </ul>
+    </nav><br>
+    <img src="https://placehold.co/300x200" />
+    <h3>Here Are Our Products</h3>
+    <table>
+        <!--Bonus: Header row-->
+        <tr>
+            <th>Name</th>
+            <th>&nbsp&nbsp&nbsp&nbspPrice</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Polo Shirt</td>
+            <td>&nbsp&nbsp&nbsp&nbsp19.99</td>
+            <td>&nbsp&nbsp&nbsp&nbspQuantity<input type="text" id="quantity-input" name="quantity" row="1" col="3"></td>
+        </tr>
+        <tr>
+            <td>Jeans</td>
+            <td>&nbsp&nbsp&nbsp&nbsp24.99</td>
+            <td>&nbsp&nbsp&nbsp&nbspQuantity<input type="text" id="quantity-input" name="quantity" row="1" col="3"></td>
+        </tr>
+        <tr>
+            <td>Shoes</td>
+            <td>&nbsp&nbsp&nbsp&nbsp39.95</td>
+            <td>&nbsp&nbsp&nbsp&nbspQuantity<input type="text" id="quantity-input" name="quantity" row="1" col="3"></td>
+        </tr>
+    </table><br>
+    <button type="submit">Order Items</button><br><br>
+
+    <!--Bonus: Image with rounded borders-->
+    <img class="roundedge" src="https://placehold.co/300x200"/>
+
+    <h3>Enter Info Below</h3>
+<section id="contact">
+  <form>
+    <p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name-input" name="username">
+    </p>
+    <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email-input" name="email-addy">
+    </p>
+    <p>How Did You Find Us?</p>
+    <!--Bonus: Radio button group-->
+    <input type="radio" name="soc-media" id="google-radio" value="google">
+    <label for="google">Google</label><br>
+    <input type="radio" name="soc-media" id="linkedin-radio" value="linkedin">
+    <label for="linkedin">LinkedIn</label><br>
+    <input type="radio" name="soc-media" id="x-radio" value="x">
+    <label for="x">X</label>
+    <p>
+        <label for="msg-area">Message</label><br>
+        <textarea type="text" id="msg" placeholder="Type message here.."
+        rows="8"cols=40></textarea>
+    </p>
+  </form>
+</section>
+  <button type="submit">Submit Info</button>
+</body>
+</html>
